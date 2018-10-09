@@ -10,6 +10,12 @@ public class Employee
 	private String name;
 	private double salary;
 	
+	// constructor with no instance variables
+	public Employee()
+	{
+		
+	}
+	
 	// constructor using two instance variables
 	public Employee(String name, double salary)
 	{
@@ -24,7 +30,7 @@ public class Employee
     
     public double getSalary() { return this.salary; }
     
-    public void setSalary(String salary) { this.name = salary; }
+    public void setSalary(double salary) { this.salary = salary; }
     
     // Enhancement: exception handling -> salary should be greater than 0
     public String getSalaryAsString()

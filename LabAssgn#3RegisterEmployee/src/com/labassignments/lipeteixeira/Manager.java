@@ -6,6 +6,12 @@ public class Manager extends Employee
 	// instance variables
 	private String dept;
 	
+	// constructor with no instance variables
+	public Manager()
+	{
+		
+	}
+	
 	// constructor using three instance variables
 	public Manager(String name, double salary, String dept)
 	{
@@ -15,6 +21,7 @@ public class Manager extends Employee
 	
 	// properties - gets and sets
     public String getDept() { return this.dept; }
+    
     public void setDept(String dept) { this.dept = dept; }
     
     // override toString()

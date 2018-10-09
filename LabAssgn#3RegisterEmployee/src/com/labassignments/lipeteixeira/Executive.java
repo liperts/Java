@@ -9,6 +9,12 @@ public class Executive extends Manager
 	// instance variables
 	private double yearlyBonus;
 	
+	// constructor with no instance variables
+	public Executive()
+	{
+		
+	}
+	
 	// constructor using four instance variables
 	public Executive(String name, double salary, String dept, double yearlyBonus)
 	{
@@ -18,6 +24,7 @@ public class Executive extends Manager
 	
 	// properties - gets and sets
     public double getYearlyBonus() { return this.yearlyBonus; }
+    
     public void setYearlyBonus(double yearlyBonus) { this.yearlyBonus = yearlyBonus; }
     
     // Enhancement: exception handling -> yearlyBonus should be greater than 0
