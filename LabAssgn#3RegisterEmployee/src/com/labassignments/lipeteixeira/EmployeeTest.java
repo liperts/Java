@@ -37,7 +37,10 @@ public class EmployeeTest
 		newEmployee.setName(readInput.nextLine());
 		System.out.print("Please input the salary of the new Employee: ");
 		newEmployee.setSalary(Double.parseDouble(readInput.nextLine()));
+		
+		System.out.println("You can see below the last employee that you added:");
 		System.out.println(newEmployee);
+		System.out.println();
 		
 		Manager newManager = new Manager();
 		System.out.print("Please input the name of the new Manager: ");
@@ -47,6 +50,7 @@ public class EmployeeTest
 		System.out.print("Please input the department of the new Manager: ");
 		newManager.setDept(readInput.nextLine());
 		System.out.println(newManager);
+		System.out.println();
 		
 		Executive newExecutive = new Executive();
 		System.out.print("Please input the name of the new Executive: ");
@@ -58,6 +62,7 @@ public class EmployeeTest
 		System.out.print("Please input the yearly bonus of the new Executive: ");
 		newExecutive.setYearlyBonus(Double.parseDouble(readInput.nextLine()));
 		System.out.println(newExecutive);
+		System.out.println();
 		
 		System.out.println("Thank you for use our system. Have a good one!");
 		
