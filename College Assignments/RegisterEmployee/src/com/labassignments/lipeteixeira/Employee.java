@@ -3,7 +3,7 @@ package com.labassignments.lipeteixeira;
 import java.text.NumberFormat;
 import java.util.Locale;
 
-// Employee as base class
+// Employee as a base class
 public class Employee
 {
 	// instance variables 
