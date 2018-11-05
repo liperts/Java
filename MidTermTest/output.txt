@@ -1,0 +1,24 @@
+
+Centennial Student Tracking Application
+Enter student Id (enter -1 to quit): Enter name: Enter address: Enter department: Enter tuition Paid: 
+	The Complete Student Record:
+	Student ID: 1123
+	Name: Syed Yamin
+	Address: 123 Dreamland, Ontario
+	Department: SETAS
+	Tuition paid: 1200.00
+
+Enter student Id (enter -1 to quit): Enter name: Enter address: Enter department: Enter tuition Paid: 
+	The Complete Student Record:
+	Student ID: 2234
+	Name: Ilia Nika
+	Address: 324 Rossland, Quebec
+	Department: ICET
+	Tuition paid: 500.00
+
+Enter student Id (enter -1 to quit): 
+	Syed Yamin's student Id as entered is: 1123
+	Syed Yamin's address as entered is: 123 Dreamland, Ontario
+	Ilia Nika's department as entered is: ICET
+	Ilia Nika's tuition fees as entered is: 500.00
+	Bye now. Have a nice day.

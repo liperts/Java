@@ -1,10 +1,14 @@
 package com.labassignments.lipeteixeira;
 
+import java.text.DecimalFormat;
+
 public class CentStudent extends Student
 {
 	// instance variables
 	protected String dept;
 	protected double tuitionFee;
+	
+	DecimalFormat decimalFormat = new DecimalFormat("0.00");
 
 	// default constructor
 	public CentStudent() 
@@ -82,8 +86,8 @@ public class CentStudent extends Student
     @Override
 	public String toString() 
     {
-		return "Student ID: " + studentId + "\nName: " + name + "\nAddress: " + address 
-				+ "\nDepartment: " + dept + "\nTuition Fee: " + tuitionFee + "0";
+		return "\tStudent ID: " + studentId + "\n\tName: " + name + "\n\tAddress: " + address 
+				+ "\n\tDepartment: " + dept + "\n\tTuition paid: " + decimalFormat.format(tuitionFee);
 	}
 
 }

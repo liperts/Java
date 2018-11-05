@@ -30,7 +30,7 @@ public class TestSil
 			System.out.print("Enter tuition Paid: ");
 			student1.setTuitionFee(Double.parseDouble(input.nextLine()));
 			
-			System.out.println("\nThe Complete Student Record:");
+			System.out.println("\n\tThe Complete Student Record:");
 			System.out.println(student1);
 			
 			listOfStudent[i] = student1;
@@ -41,19 +41,19 @@ public class TestSil
 			
 			if (id == -1) 
 			{
-				System.out.println("\n" + listOfStudent[0].name + "'s student Id as "
+				System.out.println("\n\t" + listOfStudent[0].name + "'s student Id as "
 						+ "entered is: " + listOfStudent[0].studentId);
-				System.out.println(listOfStudent[0].name + "'s address as "
+				System.out.println("\t" + listOfStudent[0].name + "'s address as "
 						+ "entered is: " + listOfStudent[0].address);
-				System.out.println(listOfStudent[1].name + "'s department as "
+				System.out.println("\t" + listOfStudent[1].name + "'s department as "
 						+ "entered is: " + listOfStudent[1].dept);
-				System.out.println(listOfStudent[1].name + "'s tuition fees as "
+				System.out.println("\t" + listOfStudent[1].name + "'s tuition fees as "
 						+ "entered is: " + decimalFormat.format(listOfStudent[1].tuitionFee));
 			}
 			
 		}
 		
-		System.out.print("\nBye now. Have a nice day.");
+		System.out.print("\tBye now. Have a nice day.");
 		
 		input.close();
 	}
