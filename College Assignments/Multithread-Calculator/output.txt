@@ -1,0 +1,12 @@
+Welcome to the Centennial College Multithreaded Calculator
+Please enter the first integer: Please enter the second integer: 	The result of the addition operation on 7 and 7 is 14.
+	The result of the multiplication operation on 7 and 7 is 49.
+	The result of the subtraction operation on 7 and 7 is 0.
+	The result of the division operation on 7 and 7 is 1.
+
+Do you wanna try again (y/n)? Please enter the first integer: Please enter the second integer: 	The result of the addition operation on 5 and 5 is 10.
+	The result of the division operation on 5 and 5 is 1.
+	The result of the multiplication operation on 5 and 5 is 25.
+	The result of the subtraction operation on 5 and 5 is 0.
+
+Do you wanna try again (y/n)? 	Bye. Have a good day.
